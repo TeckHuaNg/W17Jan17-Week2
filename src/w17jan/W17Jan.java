@@ -15,7 +15,10 @@ public class W17Jan {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.printf("Hello World, my GitHub account name is TeckHuaNg");
+        System.out.printf("Hello World, my GitHub account name is TeckHuaNg %n");
+        
+        GameOfWar theGame = new GameOfWar();
+        theGame.playGame();
     }
     
 }

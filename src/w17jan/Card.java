@@ -57,7 +57,7 @@ public class Card {
     }
     
     public String toString(){
-        return faceName + " of " + suit + " it has a value of " + faceValue;
+        return faceName + " of " + suit ;
     }
     
 }//end of class
